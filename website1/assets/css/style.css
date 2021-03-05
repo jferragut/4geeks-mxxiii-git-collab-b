@@ -1,3 +1,36 @@
 body{
-    background: #BDBDBD;
+    background: #FFF !important;
+}
+
+.contact-wrapper {
+    margin: 150px;
+
+}
+
+.contact-wrapper p {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+form {
+    background: #F5F5F5;
+    border-radius: 2px;
+    padding: 10px 10px 30px 100px;
+    width: 70%;
+    margin: 0 auto;
+    border: 1px solid lightgray;
+}
+
+label {
+    font-weight: bold;
+    text-align: end;
+    margin-right: 20px;
+    width: 100%;
+    flex-shrink: 4;
+    align-self: baseline;
+}
+
+.btn {
+    background-color: #5179B5;
+    padding: 5px 10px;
 }
